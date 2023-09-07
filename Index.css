@@ -58,7 +58,7 @@ nav {
   width: 0;
   bottom: 0;
   left: 0;
-  background-color: cyan;
+  background-color: #5585b5;
   transition: all 0.3s ease;
 }
 
@@ -69,19 +69,19 @@ nav {
 .btn {
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: #fff;
+  color: cyan;
+  border: 1px solid cyan;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: cyan;
+  background-color: black;
   margin-top: 10px;
   height: 50px;
-
-  border: none;
 }
 
 .btn:hover {
   background-color: cyan;
+  color: black;
 }
 
 .container {
@@ -92,7 +92,7 @@ nav {
 
 .blur {
   position: absolute;
-  box-shadow: 0 0 1000px 50px cyan;
+  box-shadow: 0 0 1000px 50px #5585b5;
   z-index: -100;
 }
 
@@ -143,7 +143,7 @@ header .image::before {
   font-size: 38rem;
   font-weight: 400;
   line-height: 20rem;
-  color: cyan;
+  color: #5585b5;
   opacity: 0.2;
   z-index: -100;
 }
@@ -182,7 +182,7 @@ section .header {
 }
 
 .icon-style {
-  background-color: cyan;
+  background-color: #5585b5;
   display: inline-block;
   padding: 2px 9px;
   margin-bottom: 1rem;
@@ -209,7 +209,7 @@ section .header {
 }
 
 .skills .card a:hover {
-  color: cyan;
+  color: #5585b5;
 }
 
 .sub-header {
@@ -307,7 +307,7 @@ footer .column .socials a {
 }
 
 footer .column .socials a:hover {
-  color: cyan;
+  color: #5585b5;
 }
 
 footer .column h4 {
@@ -325,7 +325,7 @@ footer .column > a {
 }
 
 footer .column > a:hover {
-  color: cyan;
+  color: #5585b5;
 }
 
 .copyright {
@@ -414,7 +414,7 @@ footer .column > a:hover {
 }
 
 .contact-form button {
-  background-color: cyan;
+  background-color: #5585b5;
   color: #fff;
   padding: 10px 20px;
   border: none;
