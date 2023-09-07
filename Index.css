@@ -379,6 +379,10 @@ footer .column > a:hover {
   }
 }
 
+.contact-form h2 {
+  color: #fff;
+}
+
 .contact-form {
   background-color: #27272a;
   padding: 20px;
@@ -392,6 +396,7 @@ footer .column > a:hover {
   display: block;
   text-align: left;
   margin-top: 10px;
+  color: #fff;
 }
 
 .contact-form input[type="text"],
