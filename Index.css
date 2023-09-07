@@ -379,14 +379,6 @@ footer .column > a:hover {
   }
 }
 
-.centered-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-/* Contact Form Styling */
 .contact-form {
   background-color: #27272a;
   padding: 20px;
