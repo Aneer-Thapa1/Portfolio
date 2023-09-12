@@ -206,15 +206,20 @@ section .header {
 }
 
 .skills .card a {
-  color: #fff;
+  color: cyan;
   transition: all 0.3s ease;
   align-items: center;
   display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
+  text-decoration: none;
+  border: 1px solid cyan;
+  width: 50%;
+  padding-left: 10px;
 }
 
 .skills .card a:hover {
-  color: cyan;
+  background-color: cyan;
+  color: black;
 }
 
 .sub-header {
@@ -371,11 +376,6 @@ footer .column > a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .contact-form {
-    max-width: 100%;
-    padding: 15px;
-  }
-
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -388,7 +388,7 @@ footer .column > a:hover {
   color: #fff;
 }
 
-.contact-form {
+/* .contact-form {
   background-color: #27272a;
   padding: 20px;
   border-radius: 10px;
@@ -402,9 +402,9 @@ footer .column > a:hover {
   text-align: left;
   margin-top: 10px;
   color: #fff;
-}
+} */
 
-.contact-form input[type="text"],
+/* .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
@@ -412,18 +412,37 @@ footer .column > a:hover {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
+} */
+
+.form-container {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.contact-form textarea {
+form input {
+  width: 300px;
+  height: 30px;
+}
+
+textarea {
+  width: 300px;
   resize: none;
 }
 
-.contact-form button {
-  background-color: cyan;
+.inner-container button {
+  justify-content: center;
+}
+
+.inner-container {
+  width: auto;
+  border-radius: 20px;
+  background-color: #323232;
+  padding: 30px;
   color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
