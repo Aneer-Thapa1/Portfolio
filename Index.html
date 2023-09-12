@@ -166,26 +166,27 @@
         action="https://formspree.io/f/mzblrnpb"
         method="POST"
       >
-        <h2>Contact Me</h2>
-        <br>
+        <h2 style="text-align: center;">Contact Me</h2>
+      
         <label for="name">Name:</label>
-        <br>
-        <input type="text" id="name" name="name" required />
-<br>
+ 
+        <input type="text" id="name" name="name" placeholder="Enter your name." required />
+
         <label for="email">Email:</label>
         <br>
-        <input type="email" id="email" name="email" required />
-<br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
         <label for="message">Message:</label>
-        <br>
+        
         <textarea
           id="message"
           name="message"
           rows="4"
           cols="50"
+          placeholder="Enter your message"
           required
         ></textarea>
-<br>
+
         <button  class="btn"  type="submit" >Submit</button>
       </form>
     </div>

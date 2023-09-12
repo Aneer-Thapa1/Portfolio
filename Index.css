@@ -388,32 +388,6 @@ footer .column > a:hover {
   color: #fff;
 }
 
-/* .contact-form {
-  background-color: #27272a;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  text-align: center;
-}
-
-.contact-form label {
-  display: block;
-  text-align: left;
-  margin-top: 10px;
-  color: #fff;
-} */
-
-/* .contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-} */
-
 .form-container {
   height: 25rem;
   width: 100%;
@@ -422,26 +396,34 @@ footer .column > a:hover {
 }
 
 form input {
+  margin-top: 5px;
+  border: 1px solid #ccc;
   width: 300px;
   height: 30px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 textarea {
+  margin-top: 5px;
+  border: 1px solid #ccc;
   width: 300px;
   resize: none;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .inner-container button {
-  justify-content: center;
+  margin-left: 90px;
 }
 
 .inner-container {
-  width: auto;
+  width: 400px;
   border-radius: 20px;
   background-color: #323232;
   padding: 30px;
   color: #fff;
-  padding-left: 20px;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
