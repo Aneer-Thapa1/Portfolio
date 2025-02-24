@@ -14,7 +14,8 @@ Welcome to my personal portfolio website!
 - Contact form  
 
 ## Live Demo  
-Check out my portfolio: [Live Link](www.anirjungthapa.com.np)  
+[Check out my portfolio](https://www.anirjungthapa.com.np){:target="_blank"}
+
 
 ## How to Use  
 1. Clone the repository:  
