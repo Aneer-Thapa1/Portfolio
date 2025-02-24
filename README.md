@@ -14,7 +14,7 @@ Welcome to my personal portfolio website!
 - Contact form  
 
 ## Live Demo  
-[Check out my portfolio](https://www.anirjungthapa.com.np){:target="_blank"}
+[Check out my portfolio](https://www.anirjungthapa.com.np)
 
 
 ## How to Use  
